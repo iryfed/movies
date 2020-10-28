@@ -42,7 +42,12 @@
 
   <fieldset>
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-6"></div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
+      <div class="col-xs-12 col-sm12 col-md-4 col-lg-3">
+        <button type="button" class="btn btn-reset btn-extend" @click="backPrevPage">
+          отменить
+        </button>
+      </div>
       <div class="col-xs-12 col-sm12 col-md-4 col-lg-3">
         <input type="reset" class="btn btn-reset btn-extend" value="сбросить">
       </div>
@@ -88,6 +93,9 @@ export default {
           () => { this.genresListLoading = false; },
         );
       }, 0);
+    },
+    backPrevPage() {
+      this.$router.go(-1);
     },
   },
   created() {

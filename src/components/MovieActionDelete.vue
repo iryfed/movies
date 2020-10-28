@@ -16,12 +16,12 @@
           <div class="line"></div>
         </div>
 
-         <div v-if="deleteSuccess">
+         <div v-else-if="deleteSuccess">
          <button class="btn btn-close-modal" v-on:click="hideModalRedirect">&#10060;</button>
            Фильм удален!
          </div>
 
-         <div v-if="deleteError">
+         <div v-else>
            <button class="btn btn-close-modal" v-on:click="hideModalError">&#10060;</button>
            <p class="error">
              <strong class="error">Ошибка:</strong> не удалось удалить фильм.
