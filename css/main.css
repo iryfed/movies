@@ -14,5 +14,5 @@ html,body,*{margin:0;padding:0;box-sizing:border-box}html,body,*{font-family:"Ro
 
 .embed-responsive-item{display:inline-block;width:100%;min-height:600px;margin:0;padding:0;border:none}
 
-@media (min-width: 768px){.movie{min-height:740px}}@media (min-width: 992px){.movie{min-height:635px}}@media (min-width: 1200px){.movie{min-height:600px}}
+@media (min-width: 768px){.movie{min-height:740px}}@media (min-width: 992px){.movie{min-height:680px}}@media (min-width: 1200px){.movie{min-height:600px}}
 
