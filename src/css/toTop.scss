@@ -1,0 +1,21 @@
+@import 'var.scss';
+
+.toTop {
+  position: fixed;
+  bottom: 0;
+  left: calc(50% - 20px);
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 50%;
+  background-image: url('../img/icons/toTop.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: $color_title;
+  opacity: .6;
+  cursor: pointer;
+}
+
+.toTop:hover {
+  opacity: 1;
+}

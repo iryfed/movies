@@ -1,0 +1,28 @@
+@import 'var.scss';
+
+.btn-close-modal {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  float: right;
+  border: none;
+  text-align: right;
+  line-height: 1;
+  &:hover,
+  &:focus,
+  &:active {
+    color: $color_text_light;
+  }
+}
+.vue-dialog-button .cancel,
+.vue-dialog-button .delete {
+  line-height: 40px;
+  height: 40px;
+}
+.vue-dialog-button .delete {
+  background-color: $color_delete;
+  color: #fff;
+}

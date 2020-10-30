@@ -1,0 +1,40 @@
+@import 'var.scss';
+
+.find {
+  margin-top: 35px;
+}
+.find input {
+  margin-bottom: 0;
+  height: 38px;
+  width: 0;
+  padding: 6px 10px 6px 42px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  float: left;
+  -webkit-transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
+  -moz-transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
+  -o-transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
+  transition: width 0.7s ease-in-out, border 0.7s ease-in-out;
+}
+.find:hover input {
+  width: 100%;
+  border: 1px solid $color_text_light;
+}
+.find input:focus {
+  width: 100%;
+  border: 1px solid $color_title;
+  outline: 0;
+}
+.find-icon {
+  display: inline-block;
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  background-image: url('../img/icons/find.svg');
+  background-repeat: no-repeat;
+  background-size: 26px;
+  background-position: 50% 50%;
+}
