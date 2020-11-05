@@ -75,6 +75,13 @@ a:active {
   cursor: pointer;
 }
 
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+
 .movies__item {
   margin-bottom: 40px;
 }

@@ -6,4 +6,3 @@ import './css/loader.scss';
 import './css/toTop.scss';
 import './css/modal.scss';
 import './css/videoembed.scss';
-import './css/media.scss';
